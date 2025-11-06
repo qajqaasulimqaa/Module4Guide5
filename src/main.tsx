@@ -9,9 +9,9 @@ import Contact from  './Components/Contact.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename={"Module4Guide5"} >
   <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<App />}   />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact" element={<Contact />} />
