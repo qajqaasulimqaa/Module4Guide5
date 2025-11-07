@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Chetta_Visto';
+  src: url('/src/fonts/Chetta_Visto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body, #root {
+  height: 100%;
+}
